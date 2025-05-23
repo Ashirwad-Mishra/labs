@@ -1,3 +1,61 @@
+/*
+🔄 Round Robin Scheduling Algorithm
+Input:
+
+Number of processes n.
+
+Arrival time and burst time for each process.
+
+Quantum time q.
+
+Initialize:
+
+Set remaining_time = burst_time for each process.
+
+current_time = 0, completed = 0.
+
+Create a queue for ready processes.
+
+Use a boolean array in_queue[] to avoid pushing the same process multiple times.
+
+Start Scheduling:
+
+Sort all processes by arrival time.
+
+Push the first arriving process to the queue.
+
+While the queue is not empty:
+
+Dequeue the front process P.
+
+Run it for min(quantum, remaining_time).
+
+Update current_time and reduce remaining_time.
+
+Enqueue all new processes that arrived during execution (if not already in the queue).
+
+If P is not finished, enqueue it again.
+
+If P is finished, calculate:
+
+completion_time = current_time
+
+turnaround_time = completion_time - arrival_time
+
+waiting_time = turnaround_time - burst_time
+
+If queue becomes empty:
+
+Jump to the next arriving process that hasn’t finished yet.
+
+After all processes complete:
+
+Print process details: AT, BT, CT, TAT, WT.
+
+Compute and print average Turnaround Time and Waiting Time.
+    
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
