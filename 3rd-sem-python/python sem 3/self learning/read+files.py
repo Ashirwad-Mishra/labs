@@ -1,0 +1,5 @@
+file = open("name.txt","r")
+cont = file.read()
+print(cont)
+print(read.lines())
+file.close()

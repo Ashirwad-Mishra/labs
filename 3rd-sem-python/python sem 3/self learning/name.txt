@@ -1,0 +1,4 @@
+This is the new line.
+Damn! 
+write function just deletes everything from the file and then rewrites new thing on it.
+ No! It does not rewrite everytime a new function is called. Rather it rewrites everytime a file is opened in write only mode. 

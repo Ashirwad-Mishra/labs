@@ -1,0 +1,5 @@
+Hi! This is Fundamentals of python programming.
+We are learning here the ways to handle file using python.
+Python is an easy to learn, interpretter based programming language which supports 
+object oriented programming and has robust inbuilt libraries to help you out during the 
+programming.

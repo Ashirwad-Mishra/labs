@@ -1,0 +1,1 @@
+print("O ma gu turu lob")

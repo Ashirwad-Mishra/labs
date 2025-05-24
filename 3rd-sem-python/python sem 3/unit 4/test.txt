@@ -1,0 +1,47 @@
+Hi! This is Fundamentals of python programming.
+We are learning here the ways to handle file using python.
+Python is an easy to learn, interpretter based programming language which supports 
+object oriented programming and has robust inbuilt libraries to help you out during the 
+programming.
+
+Python is a versatile and powerful programming language. Here are 10 key properties that make Python unique and widely used:
+
+Easy to Learn and Use:
+
+Python has a simple and readable syntax, which makes it beginner-friendly and quick to master.
+
+Interpreted Language:
+
+Python code is executed line by line at runtime, meaning there's no need for compilation.
+
+Dynamically Typed:
+
+Variables in Python do not need explicit type declaration. The type is determined at runtime based on the assigned value.
+
+Portable:
+
+Python is cross-platform, meaning code written in Python can run on multiple operating systems like Windows, Linux, and macOS without modifications.
+
+Object-Oriented:
+
+Python supports object-oriented programming with classes, inheritance, encapsulation, and polymorphism.
+
+Extensive Standard Library:
+
+Python comes with a rich standard library, which provides pre-written functions and modules for tasks like file handling, math operations, and web development.
+
+Supports Multiple Paradigms:
+
+Python supports various programming paradigms, including procedural, functional, and object-oriented programming.
+
+Dynamic Memory Management:
+
+Python handles memory allocation and deallocation automatically through garbage collection, which frees up unused memory.
+
+Open Source and Free:
+
+Python is open-source software, and it is free to use and distribute for any purpose, including commercial use.
+
+Highly Scalable and Versatile:
+
+Python is suitable for small scripts and large-scale enterprise applications alike. It's used in fields like web development, data analysis, artificial intelligence, and more.
