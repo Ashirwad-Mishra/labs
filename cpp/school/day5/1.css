@@ -1,0 +1,4 @@
+@keyframes div
+{
+    animation: 10s in iteration-count delay iteration-count direction fill-mode;
+}
