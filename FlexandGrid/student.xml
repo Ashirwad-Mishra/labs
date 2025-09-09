@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cse SYSTEM "student.dtd">
+
+<cse>
+    <students>
+        <student>
+            <roll eid="st1">
+                2300320100055
+            </roll>
+            <name>
+                Ashirwad Mishra
+            </name>
+            <batch>
+                2023-27
+            </batch>
+        </student>
+        <student>
+            <roll eid="st2">
+                2300320100056
+            </roll>
+            <name>
+                Atherve Agrawal
+            </name>
+            <batch>
+                2023-27
+            </batch>
+        </student>
+        <student>
+            <roll eid="st3">
+                230032010054
+            </roll>
+            <name>
+                Aryan
+            </name>
+            <batch>
+                2023-27
+            </batch>
+        </student>
+    </students>
+</cse>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT cse (students)>
+<!ELEMENT students (student*)>
+<!ELEMENT student (roll , name , batch)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT batch (#PCDATA)>
+
+<!ATTLIST roll eid ID #REQUIRED>

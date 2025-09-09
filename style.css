@@ -1,0 +1,11 @@
+p:nth-child(1)
+{
+    background-color: blue;
+    color: wheat;
+}
+
+div p:nth-of-type(1)
+{
+    font-size: xx-large;
+    background-color: aqua;
+}
