@@ -1,0 +1,20 @@
+p::before
+{
+    content: "Hello Class, This is ";
+}
+.a::after
+{
+    content: " A!";
+}
+.b::after
+{
+    content: " B!";
+}
+.c::after
+{
+    content: " C!";
+}
+.d::after
+{
+    content: " D!";
+}

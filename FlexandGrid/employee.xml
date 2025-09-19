@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="employee.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="cssForStudent.css" type="text/css"?>
+
+<employee>
+    <eid attribute-name="w1">
+        <name>
+            Ashirwad
+        </name>
+        <salary>
+            0.00
+        </salary>
+        <organization>
+            ABESEC
+        </organization>
+    </eid>
+</employee>

@@ -1,0 +1,45 @@
+@keyframes moveDown 
+{
+    0% {
+        transform: translateY(0); 
+    }
+    100% { 
+        transform: translateY(200px); 
+    }   
+}
+@keyframes sizeIncreaseDecrease 
+{
+    0% { 
+        transform: scale(1); 
+    }
+    100% { 
+        transform: scale(1.5); 
+    }   
+}
+@keyframes changeColor 
+{
+    0% { 
+        background-color: red; 
+    }
+    25% {
+            background-color: yellow; 
+        }
+    50% 
+    { 
+        background-color: blue; 
+    }
+    75% 
+    {
+        background-color: green; 
+    }
+    100% 
+    {
+        background-color: red; 
+    }   
+}
+.container
+{
+    animation: moveDown 2s infinite alternate 4s, changeColor 4s infinite alternate 2s;
+    height: 100px;
+    width: 100px;
+}
