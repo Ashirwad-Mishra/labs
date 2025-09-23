@@ -64,3 +64,5 @@ console.log(selectLanguage("Java"))
 console.log(selectLanguage("C++"))
 console.log(selectLanguage("Python"))
 console.log(selectLanguage())
+
+console.log("Hello world");
