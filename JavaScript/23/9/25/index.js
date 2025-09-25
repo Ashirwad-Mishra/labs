@@ -16,13 +16,17 @@ img.style.width = "200px";
 img.style.height = "150px";
 img.style.border = "2px solid black";
 img.style.borderRadius = "10%";
-container[0].append(img);
+
 
 const btn1 = document.getElementById('btn1')
 console.log(btn1)
 
-function displayData() {
-    console.log("Haaaaayaaaaaaa");
+function displayData(){
+    setTimeout(()=>{
+        disp = document.getElementById('disp').innerHTML = '<h3>Loading....................</h3>';
+        disp = document.getElementById('disp').innerHTML = "";
+        container[0].append(img);
+    },2000);
 }
 
 btn1.addEventListener('click' , displayData);
