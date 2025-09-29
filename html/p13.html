@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="yellow">
+    <marquee direction="right"><h1>Registration Form</h1></marquee>
+    
+    <center>
+        <!-- Form starts here -->
+        <form action="submit.html" method="post">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="t1"></td>
+                </tr>
+                <tr>
+                    <td>Father Name:</td>
+                    <td><input type="text" name="t2"></td>
+                </tr>
+                <tr>
+                    <td>Mother Name:</td>
+                    <td><input type="text" name="t3"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea rows="5" name="t4"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Language:</td>
+                    <td><input type="checkbox" name="lang" value="English">English</td>
+                    <td><input type="checkbox" name="lang" value="Hindi">Hindi</td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" value="Male">Male</td>
+                    <td><input type="radio" name="gender" value="Female">Female</td>
+                </tr>
+                <tr>
+                    <td>Category:</td>
+                    <td><input type="radio" name="category" value="SC">SC</td>
+                    <td><input type="radio" name="category" value="ST">ST</td>
+                    <td><input type="radio" name="category" value="OBC">OBC</td>
+                    <td><input type="radio" name="category" value="GEN">GEN</td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td>
+                        <select name="country">
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>China</option>
+                            <option>Brazil</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit" name="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <!-- Form ends here -->
+    </center>
+</body>
+</html>
