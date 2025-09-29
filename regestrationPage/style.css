@@ -1,0 +1,16 @@
+.Registration_form
+{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 9%;
+    text-align: center;
+    background-color: rgb(179, 179, 255);
+    border-radius: 20px;
+}
+
+body
+{
+    background-color: rgb(116, 211, 208);
+}

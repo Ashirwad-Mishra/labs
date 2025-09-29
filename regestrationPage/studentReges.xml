@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="studentReges.dtd" type="application/xml-dtd"?>
+<students>
+    <student>
+        <name>Aditya Gola</name>
+        <roll>2300320100020</roll>
+        <age>20</age>
+        <course>Computer Science</course>
+    </student>
+    <student>
+        <name>Ashirwad Mishra</name>
+        <roll>2300320100055</roll>
+        <age>20</age>
+        <course>CSE</course>
+    </student>
+</students>
